@@ -18,7 +18,12 @@ Space wars is an android game written in Java and developed using Android Studio
 ## Setting up the Android Project
 
 1. Download the space-wars-game project source code.You can do this either by forking and cloning the repository (recommended if you plan on pushing changes) or by downloading it as a ZIP file and extracting it.                                                                                                                                           
+
 2. Run Android Studio and click on open an existing project, navigate to the source code and open the project.
+
 3. Set up AVD if you haven't done it [AVD Guide](https://developer.android.com/studio/run/managing-avds)
-4. Run the app and test it.
+
+4. Build the project (Cntrl + F9) and check for errors.
+
+5. Run the app (Shift + F10) and test it.
 
