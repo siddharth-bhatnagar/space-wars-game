@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spacemain"
+    tools:context=".PlayerDatabaseActivity">
+
+    <TextView
+        android:id="@+id/playerDataTextView"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:text="LEADERBOARDS"
+        android:fontFamily="@font/comictragedybase_bc"
+        android:textColor="#EAD417">
+
+    </TextView>
+    <ListView
+        android:id="@+id/user_list"
+        android:layout_margin="20dp"
+
+        android:layout_below="@+id/playerDataTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:dividerHeight="1sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_list"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="returnToMainMenu"
+        android:text="Back to Main Menu"
+        android:background="@drawable/shape"
+        android:textColor="#000000">
+
+    </Button>
+
+
+</RelativeLayout>

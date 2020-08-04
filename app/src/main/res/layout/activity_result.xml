@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spacemain"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Result">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER"
+        android:textColor="#AC0000"
+        android:textSize="45sp"
+        android:fontFamily="@font/comictragedybase_bc"/>
+    <TextView
+        android:id="@+id/scoreLose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOU MISSED: 0 UFOs"
+        android:fontFamily="@font/comictragedy_bc"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="wrap_content"
+        android:text="YOU SHOT: 0 UFOs"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/comictragedy_bc"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/timeStamp"
+        android:layout_width="wrap_content"
+        android:text="TOTAL TIME: 0"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/comictragedy_bc"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/highScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIGH SCORE: 300"
+        android:fontFamily="@font/comictragedy_bc"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Player Name"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/playerNameEditText">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/TryAgain"
+        android:onClick="TryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Try Again"
+        android:background="@drawable/shape"
+        android:textColor="#000000"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/Wroc"
+        android:onClick="TryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to Menu"
+        android:background="@drawable/shape"
+        android:textColor="#000000"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

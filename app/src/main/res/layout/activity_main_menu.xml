@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spacemain"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainMenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPACE WARS"
+        android:fontFamily="@font/comictragedy_bc"
+        android:textColor="#2EFF00"
+        android:textSize="60sp"
+        android:paddingTop="10dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ufomain" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:textStyle="bold"
+            android:text="Shoot"
+            android:shadowColor="#A8ABAB"
+            android:shadowRadius="5"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/buttonResult"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:text="Ranking"
+            android:shadowColor="#A8ABAB"
+            android:shadowRadius="5"
+            android:background="@drawable/shape"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/buttonViewScore"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/shape"
+            android:shadowColor="#A8ABAB"
+            android:shadowRadius="5"
+            android:text="Leaderboards"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:textStyle="bold"
+            android:text="Exit"
+            android:shadowColor="#A8ABAB"
+            android:shadowRadius="5"
+            android:background="@drawable/shape"
+            android:textColor="#000000"/>
+
+    </FrameLayout>
+
+</LinearLayout>
