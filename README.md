@@ -6,7 +6,7 @@
 
 Space wars is an android game written in Java and developed using Android Studio v4.0.1
 
-##Things to Have
+## Things to Have
 
 [Studio](https://developer.android.com/studio)
 
